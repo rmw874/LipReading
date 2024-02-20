@@ -1,6 +1,11 @@
-Creating a model that is able to lipread from a video input.
-Ideally this can be used to assist transcribing videos for the hearing impaired, or to help with video search by providing more data to compare against.
+# Lipreading
+This project is an attempt to create a model that is able to lipread from a video input. The model will be trained on the GRID dataset, which contains videos of people speaking and the corresponding text. The model will be trained to predict the text from the video input.
 
-Ultimately I would like to create a model that can lipread in real time (from a videostream), but for now I will be focusing on creating a model that can lipread from a video file.
+## Possible Applications of this Project
+- The results of this can be used as an education tool to analyze if foreign language speakers are using correct mouth shapes to produce the correct sounds.
+- It can also become a practice tool for people with speech impairments to help them improve their speech.
+- It can be used to assist in captioning videos with poor audio quality.
+- Can be used to help people with hearing impairments practice thier lipreading skills.
 
+## Inspiration
 This project is inspired by the paper "LipNet: End-to-End Sentence-level Lipreading" by Yannis M. Assael, Brendan Shillingford, Shimon Whiteson, and Nando de Freitas. The paper can be found at https://arxiv.org/abs/1611.01599.
