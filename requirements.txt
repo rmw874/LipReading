@@ -1,0 +1,8 @@
+opencv-python
+opencv-contrib-python
+numpy
+imageio
+gdown
+dlib
+tensorflow<2.11
+matplotlib
